@@ -19,7 +19,8 @@
                 <li class="list-group-item">A third item</li>
                 <li class="list-group-item">A fourth item</li>
                 <li class="list-group-item">And a fifth one</li>
-                <input type="text" class="form-control" placeholder="Type your message here..." v-model='message'>
+                <input type="text" class="form-control" placeholder="Type your message here..." v-model='message'
+                    @keyup.enter='send'>
             </ul>
         </div>
     </div>
